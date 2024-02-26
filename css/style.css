@@ -1,0 +1,99 @@
+*{ padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: brown;
+    padding: 50px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 80px;
+    
+}
+
+#imagenesdeopciones{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.fotovinculo{
+    
+    margin: 20px;
+    padding: 20px;
+    width: 450px;
+   
+    }
+
+.fotovinculo img{
+    
+    width: 100%;
+}
+h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+body{
+    background-color: brown;
+    color: bisque;
+}
+main{
+    background-color: bisque;
+    color: black;
+    padding-bottom: 50px;
+}
+p{
+   
+    font-family: serif;
+    font-style: italic;
+}
+#textos{
+    padding: 50px;
+}
+ul{
+    list-style: none;
+}
+footer{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: brown;
+}
+
+footer div{
+    padding: 20px;
+}
+footer p{
+    padding-top: 15px;
+}
+
+.contactform{ 
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    align-items: center;
+    border: 2px dashed black;
+    padding: 50px;
+    margin: 50px auto;
+    
+   
+}
+
+.imputform{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
