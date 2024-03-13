@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: $bg-brown;
+    padding: 50px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 80px;
+    border-radius: 15%;
+    
+}
+
+#imagenesdeopciones{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imagenedoble{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+}
+
+
+
+.fotovinculo{
+    
+    margin: 20px;
+    padding: 20px;
+    width: 450px;
+   
+    }
+
+.fotovinculo img{
+    
+    width: 100%;
+}
+h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+body{
+    background-color: $bg-brown;
+    color: bisque;
+}
+main{
+    background-color: bisque;
+    color: black;
+    padding-bottom: 50px;
+}
+p{
+   
+    font-family: serif;
+    font-style: italic;
+}
+#textos{
+    background: rgba(255, 255, 255, 0.562);
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+}
+ul{
+    list-style: none;
+    padding: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: beige;
+}
