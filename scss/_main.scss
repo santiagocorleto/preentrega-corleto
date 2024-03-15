@@ -5,6 +5,10 @@ h1{
     color: $bg-brown;
     padding: 50px;
 }
+h4{
+    text-align: center;
+    font-size: 35px;
+}
 nav{
     display: flex;
     flex-direction: column;
@@ -71,15 +75,24 @@ p{
     font-style: italic;
 }
 #textos{
+    margin: auto;
+    max-width: 70%;
     background: rgba(255, 255, 255, 0.562);
     padding: 50px;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9px);
 }
+
+@media screen and (max-width: 500px) {
+    #textos{
+    max-width: 100%;}
+}
+
 ul{
     list-style: none;
     padding: 2px;
     font-family:Arial, Helvetica, sans-serif;
     color: beige;
 }
+

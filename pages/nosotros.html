@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 
 <body>
 
-    <header>
-         <!-- <nav>
+  <header>
+    <!-- <nav>
             <a href="../index.html">
                 <img class="logo" src="../img/3DFLEX.png" alt="Logo de 3DFlex">
             </a>
@@ -28,88 +29,98 @@
             <a href="../pages/carrito.html">
                 <img src="../img/carrito.png" width="80" alt="carrito"></a>
         </nav> -->
-        <nav class="navbar navbar-dark  ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/3DFLEX.png" alt="Logo de 3DFlex"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end text-bg-dark mi-menu" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                  <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h3>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../pages/productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/proyectosrealizados.html">Proyectos realizados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../pages/carrito.html">Carrito</a>
-                     </li>
-                  </ul>
-                  
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main class="backgroundnosotros">
-        <h1>QUIENES SOMOS</h1>
-        <section id="imagenedoble">
-            <img src="../img/granja3d.jpg" alt="mesa con muchas impresoras 3D">
-        </section>
-        <p id="textos">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos iusto soluta, quia earum impedit quaerat illo
-            animi eum est consectetur qui deleniti nulla inventore ratione, esse ab quibusdam, omnis eaque repudiandae
-            velit placeat et labore officiis ullam? Hic, adipisci repellendus, soluta fugit veritatis similique cum
-            tempora odit, earum sit tenetur? Vitae eaque voluptatibus eligendi excepturi commodi odio, deserunt
-            officiis! Provident at labore officia incidunt, sapiente rem, illum eius distinctio pariatur tenetur iste.
-            Enim ex dolorum quisquam nesciunt ab quas, vel, numquam dignissimos possimus pariatur laboriosam similique
-            eum provident eveniet natus doloremque non labore. Dolorem nisi distinctio, accusamus sed quos in dolores
-            fugiat a quisquam quis, sequi doloribus ipsa non pariatur. Eos fuga ratione, facilis quae aspernatur quod
-            alias doloribus, voluptatum nulla optio praesentium laborum sed laudantium dignissimos assumenda vitae.
-            Cumque ut error illum animi mollitia repudiandae incidunt quae modi? Ad unde excepturi animi reiciendis
-            voluptatibus amet sapiente ea recusandae vel velit, aliquid ab quidem molestias nihil commodi deserunt
-            fugit, suscipit atque perferendis. Quam ex repellendus rem quia, dolore fuga dolorem accusantium dicta fugit
-            praesentium, unde magni aperiam ut eius cum molestias. Praesentium nisi, nobis ipsa, molestias veritatis
-            quos modi culpa consequuntur fuga et cupiditate eos eius neque cum atque id doloribus quidem. Quia labore
-            quam dolor accusantium qui optio quo praesentium, expedita est rem commodi ducimus ipsum, voluptatum ad vero
-            id, aliquid nihil saepe odio reprehenderit tenetur! Modi odio deserunt consequatur architecto eum inventore,
-            tempore itaque, debitis veniam exercitationem rerum, illo officiis magni maiores. Nesciunt repellendus quo
-            atque officia provident.</p>
-    </main>
+    <nav class="navbar navbar-dark  ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/3DFLEX.png" alt="Logo de 3DFlex"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark mi-menu" tabindex="-1" id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h3 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h3>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/proyectosrealizados.html">Proyectos realizados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/carrito.html">Carrito</a>
+              </li>
+            </ul>
 
-
-    <footer>
-        <div>
-            <h2>Informacion</h2>
+          </div>
         </div>
-        <p>
-            Tel: 1156608822
+      </div>
+    </nav>
+  </header>
+  <main class="backgroundnosotros">
+    <h1>QUIENES SOMOS</h1>
+    <section id="imagenedoble">
+      <img src="../img/granja3d.jpg" alt="mesa con muchas impresoras 3D">
+    </section>
+    <p data-aos="flip-down" id="textos">
+      Tenemos como principal valor la calidad. Aportamos nuestro conocimiento, experiencia y herramientas para el
+      exitoso desarrollo de tu proyecto. <br>
+      <br>
+      Envianos tus archivos 3d en formato .STL a para que nuestro equipo de especialistas te envíen una cotización
+      personalizada para fabricar tus piezas. Disponemos de la granja de impresión 3D profesional mas grande del país,
+      con tecnologías FDM y SLA y una velocidad de respuesta muy ágil. <br>
+      <br>
+      La impresión 3D permite materializar objetos de una manera simple y económica ampliando los límites del diseño y
+      ofreciendo innumerables posibilidades para la industria, la medicina y prácticamente todas las disciplinas. En
+      3D FLEX brindamos el servicio de impresión 3D para piezas ya diseñadas. <br>
+      <br>
+      A través del servicio de exploración de planta, nuestro equipo de profesionales ayudará a tu organización a
+      superar los retos clave en la implementación de impresión 3D para lograr éxito con esta tecnología.
+      3D FLEX proporciona la experiencia para detectar oportunidades de aplicación de la impresión 3D con impacto
+      económico, operativo y de seguridad.
 
-        </p>
-        <p>
-            Direccion: Av Siempre Viva 742
-        </p>
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </p>
+  </main>
+
+
+  <footer>
+    <div>
+      <h2>Informacion</h2>
+    </div>
+    <p>
+      Tel: 1156608822
+
+    </p>
+    <p>
+      Direccion: Av Siempre Viva 742
+    </p>
+
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

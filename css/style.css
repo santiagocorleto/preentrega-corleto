@@ -4,6 +4,34 @@
   box-sizing: border-box;
 }
 
+.backgroundnosotros {
+  background-image: url(../img/granja3d.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundproducto {
+  background-image: url(../img/figuras.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundservicio {
+  background-image: url(../img/engranajes.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.backgroundproyectos {
+  background-image: url(../img/soporte.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header {
   z-index: 100;
   background-color: brown;
@@ -17,6 +45,11 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: brown;
   padding: 50px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 35px;
 }
 
 nav {
@@ -83,6 +116,8 @@ p {
 }
 
 #textos {
+  margin: auto;
+  max-width: 70%;
   background: rgba(255, 255, 255, 0.562);
   padding: 50px;
   border-radius: 16px;
@@ -90,6 +125,11 @@ p {
   backdrop-filter: blur(9px);
 }
 
+@media screen and (max-width: 500px) {
+  #textos {
+    max-width: 100%;
+  }
+}
 ul {
   list-style: none;
   padding: 2px;
@@ -101,6 +141,29 @@ ul {
   width: 300px;
 }
 
+.contactform {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  border: 2px dashed black;
+  padding: 50px;
+  margin: 50px auto;
+}
+
+.inputform {
+  padding-bottom: 30px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) {
+  .contactform {
+    border: none;
+  }
+}
 footer {
   padding-top: 70px;
   padding-bottom: 100px;
